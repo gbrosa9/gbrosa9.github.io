@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #000;
     color: #fff;
+    font-family:'Times New Roman', Times, serif
     
 }
 
@@ -20,6 +21,7 @@ body {
 
 p {
     text-align: center;
+    font-family:'Times New Roman', Times, serif
 }
 
 h1 {
@@ -97,6 +99,7 @@ button[type="submit"]:hover {
     display:inline-block;
     border:2px solid rgb(255, 238, 0);
     margin: 4px;
+    font-family:'Times New Roman', Times, serif
     
     
 }
@@ -125,12 +128,15 @@ button[type="submit"]:hover {
     margin-top: 20px;
     padding: 0;
     
+    
 }
 
 .atleta {
     margin: 20px; 
     border:20px solid white;
     font-size:x-large;
+    font-family:'Times New Roman', Times, serif
+
 } 
 
 
