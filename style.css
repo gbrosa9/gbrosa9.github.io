@@ -4,8 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #000;
     color: #fff;
-    font-family:'Times New Roman', Times, serif
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container-principal {
@@ -13,15 +12,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 3em;
-    width: 15%;
-    height: 10%;
-    
+    padding: 1em;
+    width: 100%; /* Alterado para ocupar a largura total */
 }
 
 p {
     text-align: center;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -30,7 +27,6 @@ h1 {
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
 }
 
 form {
@@ -72,8 +68,6 @@ button[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    
-    
 }
 
 .container-pessoas {
@@ -81,9 +75,6 @@ button[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    
-    
-    
 }
 
 .pessoas {
@@ -96,12 +87,10 @@ button[type="submit"]:hover {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
-    display:inline-block;
-    border:2px solid rgb(255, 238, 0);
+    display: inline-block;
+    border: 2px solid rgb(255, 238, 0);
     margin: 4px;
-    font-family:'Times New Roman', Times, serif
-    
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container_botao {
@@ -118,7 +107,6 @@ button[type="submit"]:hover {
 .centralizar-atletas {
     display: flex;
     justify-content: center;
-    
 }
 
 #listaAtletas {
@@ -127,22 +115,12 @@ button[type="submit"]:hover {
     gap: 50px;
     margin-top: 20px;
     padding: 0;
-    
-    
 }
 
 .atleta {
-    margin: 20px; 
-    border:20px solid white;
-    font-size:x-large;
-    font-family:'Times New Roman', Times, serif
-
-} 
-
-
-
-
-
-
-
+    margin: 20px;
+    border: 20px solid white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
 

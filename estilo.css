@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #ffcc00; /* Amarelo */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.centralizar-atletas {
+    margin: 2em;
+}
+
+#detalhesAtleta {
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.atleta {
+    margin-bottom: 1em;
+}
+
+.atleta p {
+    margin: 0;
+    padding: 0.5em;
+}
+
+.atleta img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.atleta img:hover {
+    transform: scale(1.1);
+}
